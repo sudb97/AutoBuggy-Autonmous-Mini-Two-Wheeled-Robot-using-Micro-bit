@@ -1,0 +1,4 @@
+Changes from ex3-poll:
+1. Buttons renamed BUTTON0 and BUTTON1.
+2. led_rows and led_cols made visible outside the library.
+3. timer.c and timer.h added, build script modified accordingly.
