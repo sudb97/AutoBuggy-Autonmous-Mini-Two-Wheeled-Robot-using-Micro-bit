@@ -1,0 +1,754 @@
+Archive member included to satisfy reference by file (symbol)
+
+bsp/libbsp.a(system.o)        startup.o (SystemInit)
+bsp/libbsp.a(board.o)         main.o (board_init)
+bsp/libbsp.a(serial.o)        bsp/libbsp.a(board.o) (serial_init)
+bsp/libbsp.a(gpio.o)          bsp/libbsp.a(board.o) (gpio_in)
+bsp/libbsp.a(pwm.o)           main.o (pwm_init)
+bsp/libbsp.a(lib.o)           main.o (printf)
+bsp/libbsp.a(lsm303agr.o)     main.o (COMPASSACCELERO_IO_Read)
+bsp/libbsp.a(i2c.o)           bsp/libbsp.a(lsm303agr.o) (i2c_read_reg)
+/opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              main.o (__aeabi_dmul)
+/opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              main.o (__aeabi_dadd)
+/opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+                              main.o (__aeabi_d2iz)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .text.delayMs  0x0000000000000000        0x4 main.o
+ .text.go       0x0000000000000000       0xec main.o
+ .text.trace_square
+                0x0000000000000000       0x7c main.o
+ .group         0x0000000000000000        0xc startup.o
+ .group         0x0000000000000000        0xc startup.o
+ .group         0x0000000000000000        0xc startup.o
+ .group         0x0000000000000000        0xc startup.o
+ .group         0x0000000000000000        0xc startup.o
+ .group         0x0000000000000000        0xc startup.o
+ .group         0x0000000000000000        0xc startup.o
+ .text          0x0000000000000000        0x0 startup.o
+ .data          0x0000000000000000        0x0 startup.o
+ .bss           0x0000000000000000        0x0 startup.o
+ .text.GPIOTE_IRQHandler
+                0x0000000000000000        0xc startup.o
+ .debug_macro   0x0000000000000000      0xa96 startup.o
+ .debug_macro   0x0000000000000000       0x22 startup.o
+ .debug_macro   0x0000000000000000      0x103 startup.o
+ .debug_macro   0x0000000000000000       0x6a startup.o
+ .debug_macro   0x0000000000000000      0x1df startup.o
+ .group         0x0000000000000000        0xc bsp/libbsp.a(system.o)
+ .text          0x0000000000000000        0x0 bsp/libbsp.a(system.o)
+ .data          0x0000000000000000        0x0 bsp/libbsp.a(system.o)
+ .bss           0x0000000000000000        0x0 bsp/libbsp.a(system.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(board.o)
+ .text          0x0000000000000000        0x0 bsp/libbsp.a(board.o)
+ .data          0x0000000000000000        0x0 bsp/libbsp.a(board.o)
+ .bss           0x0000000000000000        0x0 bsp/libbsp.a(board.o)
+ .text.leds_init
+                0x0000000000000000       0x40 bsp/libbsp.a(board.o)
+ .text.led_display
+                0x0000000000000000       0x80 bsp/libbsp.a(board.o)
+ .text.buttons_init
+                0x0000000000000000       0x18 bsp/libbsp.a(board.o)
+ .text.button_get
+                0x0000000000000000       0x18 bsp/libbsp.a(board.o)
+ .text.delay_us
+                0x0000000000000000       0x84 bsp/libbsp.a(board.o)
+ .text.delay_ms
+                0x0000000000000000       0x10 bsp/libbsp.a(board.o)
+ .text.clear_display
+                0x0000000000000000       0x44 bsp/libbsp.a(board.o)
+ .text.led_on   0x0000000000000000       0x20 bsp/libbsp.a(board.o)
+ .text.led_off  0x0000000000000000       0x20 bsp/libbsp.a(board.o)
+ .text.led_glow
+                0x0000000000000000       0x2c bsp/libbsp.a(board.o)
+ .rodata.btn_list
+                0x0000000000000000        0x2 bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000      0xaa2 bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x51 bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000      0x103 bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x6a bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000      0x1df bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x3a bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x10 bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x88 bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x58 bsp/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(serial.o)
+ .text          0x0000000000000000        0x0 bsp/libbsp.a(serial.o)
+ .data          0x0000000000000000        0x0 bsp/libbsp.a(serial.o)
+ .bss           0x0000000000000000        0x0 bsp/libbsp.a(serial.o)
+ .text.getc_nowait
+                0x0000000000000000       0x10 bsp/libbsp.a(serial.o)
+ .text.getc     0x0000000000000000       0x1c bsp/libbsp.a(serial.o)
+ .text.putc_nowait
+                0x0000000000000000        0xc bsp/libbsp.a(serial.o)
+ .text.putc     0x0000000000000000       0x1c bsp/libbsp.a(serial.o)
+ .text.puts     0x0000000000000000       0x28 bsp/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000      0xaa2 bsp/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x22 bsp/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x8e bsp/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x51 bsp/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000      0x103 bsp/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x6a bsp/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000      0x1df bsp/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x3a bsp/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(gpio.o)
+ .text          0x0000000000000000        0x0 bsp/libbsp.a(gpio.o)
+ .data          0x0000000000000000        0x0 bsp/libbsp.a(gpio.o)
+ .bss           0x0000000000000000        0x0 bsp/libbsp.a(gpio.o)
+ .text.gpio_write
+                0x0000000000000000       0x38 bsp/libbsp.a(gpio.o)
+ .text.gpio_read
+                0x0000000000000000       0x20 bsp/libbsp.a(gpio.o)
+ .text.gpio_inten
+                0x0000000000000000       0x4c bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000      0xaa2 bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x22 bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x8e bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x51 bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000      0x103 bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x6a bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000      0x1df bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x3a bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x10 bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x88 bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x58 bsp/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(pwm.o)
+ .text          0x0000000000000000        0x0 bsp/libbsp.a(pwm.o)
+ .data          0x0000000000000000        0x0 bsp/libbsp.a(pwm.o)
+ .bss           0x0000000000000000        0x0 bsp/libbsp.a(pwm.o)
+ .text.pwm_out  0x0000000000000000       0x70 bsp/libbsp.a(pwm.o)
+ .text.pwm1_out
+                0x0000000000000000       0x70 bsp/libbsp.a(pwm.o)
+ .text.pwmservo_stop
+                0x0000000000000000       0x34 bsp/libbsp.a(pwm.o)
+ .bss.s_sequence
+                0x0000000000000000        0x4 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000      0xaa2 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x22 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x8e bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x51 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000      0x103 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x6a bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000      0x1df bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x34 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x16 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x10 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x58 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x10 bsp/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lib.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lib.o)
+ .text          0x0000000000000000        0x0 bsp/libbsp.a(lib.o)
+ .data          0x0000000000000000        0x0 bsp/libbsp.a(lib.o)
+ .bss           0x0000000000000000        0x0 bsp/libbsp.a(lib.o)
+ .text.atoi     0x0000000000000000       0x60 bsp/libbsp.a(lib.o)
+ .text.xtou     0x0000000000000000       0x40 bsp/libbsp.a(lib.o)
+ .text._do_print
+                0x0000000000000000      0x1ec bsp/libbsp.a(lib.o)
+ .text.f_storec
+                0x0000000000000000        0xc bsp/libbsp.a(lib.o)
+ .text.do_print
+                0x0000000000000000      0x188 bsp/libbsp.a(lib.o)
+ .text.sprintf  0x0000000000000000      0x1ac bsp/libbsp.a(lib.o)
+ .debug_macro   0x0000000000000000      0xaa2 bsp/libbsp.a(lib.o)
+ .debug_macro   0x0000000000000000       0x58 bsp/libbsp.a(lib.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lsm303agr.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lsm303agr.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lsm303agr.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lsm303agr.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lsm303agr.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lsm303agr.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lsm303agr.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(lsm303agr.o)
+ .text          0x0000000000000000        0x0 bsp/libbsp.a(lsm303agr.o)
+ .data          0x0000000000000000        0x0 bsp/libbsp.a(lsm303agr.o)
+ .bss           0x0000000000000000        0x0 bsp/libbsp.a(lsm303agr.o)
+ .text.COMPASSACCELERO_IO_Init
+                0x0000000000000000        0x4 bsp/libbsp.a(lsm303agr.o)
+ .text.COMPASSACCELERO_IO_ITConfig
+                0x0000000000000000        0x4 bsp/libbsp.a(lsm303agr.o)
+ .text.COMPASSACCELERO_IO_Write
+                0x0000000000000000        0x4 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccInit
+                0x0000000000000000       0x1c bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccDeInit
+                0x0000000000000000        0x4 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccReadID
+                0x0000000000000000        0x8 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccRebootCmd
+                0x0000000000000000       0x1c bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccFilterConfig
+                0x0000000000000000       0x20 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccFilterCmd
+                0x0000000000000000       0x20 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccReadXYZ
+                0x0000000000000000      0x10c bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccFilterClickCmd
+                0x0000000000000000       0x20 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccIT1Enable
+                0x0000000000000000       0x20 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccIT1Disable
+                0x0000000000000000       0x20 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccIT2Enable
+                0x0000000000000000       0x20 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccIT2Disable
+                0x0000000000000000       0x20 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccINT1InterruptEnable
+                0x0000000000000000       0x24 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccINT1InterruptDisable
+                0x0000000000000000       0x24 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccINT2InterruptEnable
+                0x0000000000000000       0x24 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccINT2InterruptDisable
+                0x0000000000000000       0x24 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccClickITEnable
+                0x0000000000000000       0x48 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccClickITDisable
+                0x0000000000000000       0x20 bsp/libbsp.a(lsm303agr.o)
+ .text.LSM303AGR_AccZClickITConfig
+                0x0000000000000000       0x74 bsp/libbsp.a(lsm303agr.o)
+ .bss.tmpregcfgA
+                0x0000000000000000        0x1 bsp/libbsp.a(lsm303agr.o)
+ .bss.tmpreg3A  0x0000000000000000        0x1 bsp/libbsp.a(lsm303agr.o)
+ .bss.tmpreg2A  0x0000000000000000        0x8 bsp/libbsp.a(lsm303agr.o)
+ .debug_macro   0x0000000000000000      0xaa2 bsp/libbsp.a(lsm303agr.o)
+ .debug_macro   0x0000000000000000       0x22 bsp/libbsp.a(lsm303agr.o)
+ .debug_macro   0x0000000000000000       0x8e bsp/libbsp.a(lsm303agr.o)
+ .debug_macro   0x0000000000000000       0x51 bsp/libbsp.a(lsm303agr.o)
+ .debug_macro   0x0000000000000000      0x103 bsp/libbsp.a(lsm303agr.o)
+ .debug_macro   0x0000000000000000       0x6a bsp/libbsp.a(lsm303agr.o)
+ .debug_macro   0x0000000000000000      0x1df bsp/libbsp.a(lsm303agr.o)
+ .debug_macro   0x0000000000000000      0x4b8 bsp/libbsp.a(lsm303agr.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(i2c.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(i2c.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(i2c.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(i2c.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(i2c.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(i2c.o)
+ .group         0x0000000000000000        0xc bsp/libbsp.a(i2c.o)
+ .text          0x0000000000000000        0x0 bsp/libbsp.a(i2c.o)
+ .data          0x0000000000000000        0x0 bsp/libbsp.a(i2c.o)
+ .bss           0x0000000000000000        0x0 bsp/libbsp.a(i2c.o)
+ .text.i2c_init
+                0x0000000000000000       0x24 bsp/libbsp.a(i2c.o)
+ .text.i2c_write_reg
+                0x0000000000000000       0x54 bsp/libbsp.a(i2c.o)
+ .debug_macro   0x0000000000000000      0xaa2 bsp/libbsp.a(i2c.o)
+ .debug_macro   0x0000000000000000       0x22 bsp/libbsp.a(i2c.o)
+ .debug_macro   0x0000000000000000       0x8e bsp/libbsp.a(i2c.o)
+ .debug_macro   0x0000000000000000       0x51 bsp/libbsp.a(i2c.o)
+ .debug_macro   0x0000000000000000      0x103 bsp/libbsp.a(i2c.o)
+ .debug_macro   0x0000000000000000       0x6a bsp/libbsp.a(i2c.o)
+ .debug_macro   0x0000000000000000      0x1df bsp/libbsp.a(i2c.o)
+ .text          0x0000000000000000      0x254 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x0000000000000000       0xc7 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x0000000000000000       0x30 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .text          0x0000000000000000      0x378 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x0000000000000000       0xc7 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000000000       0xac /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .text          0x0000000000000000       0x50 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ .debug_line_str
+                0x0000000000000000       0xc7 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000000000       0x24 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000080000 xr
+SRAM             0x0000000020000000 0x0000000000020000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000      0xa34
+ *(.vectors)
+ .vectors       0x0000000000000000      0x200 startup.o
+                0x0000000000000000                vector_table
+ *(.text*)
+ .text.startup.main
+                0x0000000000000200       0x38 main.o
+                0x0000000000000200                main
+ .text.IntDefaultHandler
+                0x0000000000000238        0xc startup.o
+ .text.UsageFaultHandler
+                0x0000000000000244        0xc startup.o
+ .text.BusFaultHandler
+                0x0000000000000250        0xc startup.o
+ .text.HardFaultHandler
+                0x000000000000025c        0xc startup.o
+ .text.ResetISR
+                0x0000000000000268       0xfc startup.o
+                0x0000000000000268                ResetISR
+ .text.PendSV_Handler
+                0x0000000000000364        0xc startup.o
+                0x0000000000000364                PendSV_Handler
+ .text.SysTick_Handler
+                0x0000000000000370        0xc startup.o
+                0x0000000000000370                SysTick_Handler
+ .text.SVC_Handler
+                0x000000000000037c        0xc startup.o
+                0x000000000000037c                SVC_Handler
+ .text.SystemInit
+                0x0000000000000388       0x30 bsp/libbsp.a(system.o)
+                0x0000000000000388                SystemInit
+ .text.delay_us.constprop.0
+                0x00000000000003b8       0x84 bsp/libbsp.a(board.o)
+ .text.board_init
+                0x000000000000043c       0x5c bsp/libbsp.a(board.o)
+                0x000000000000043c                board_init
+ .text.led_blink
+                0x0000000000000498       0x60 bsp/libbsp.a(board.o)
+                0x0000000000000498                led_blink
+ .text.serial_init
+                0x00000000000004f8       0x50 bsp/libbsp.a(serial.o)
+                0x00000000000004f8                serial_init
+ .text.print_buf
+                0x0000000000000548       0x34 bsp/libbsp.a(serial.o)
+                0x0000000000000548                print_buf
+ .text.gpio_in  0x000000000000057c       0x18 bsp/libbsp.a(gpio.o)
+                0x000000000000057c                gpio_in
+ .text.gpio_out
+                0x0000000000000594       0x38 bsp/libbsp.a(gpio.o)
+                0x0000000000000594                gpio_out
+ .text.gpio_set
+                0x00000000000005cc       0x1c bsp/libbsp.a(gpio.o)
+                0x00000000000005cc                gpio_set
+ .text.gpio_clear
+                0x00000000000005e8       0x1c bsp/libbsp.a(gpio.o)
+                0x00000000000005e8                gpio_clear
+ .text.GPIOTE_IRQHandler
+                0x0000000000000604       0x50 bsp/libbsp.a(gpio.o)
+                0x0000000000000604                GPIOTE_IRQHandler
+ .text.pwm_init
+                0x0000000000000654       0x18 bsp/libbsp.a(pwm.o)
+                0x0000000000000654                pwm_init
+ .text.pwm1_init
+                0x000000000000066c       0x18 bsp/libbsp.a(pwm.o)
+                0x000000000000066c                pwm1_init
+ .text.printf   0x0000000000000684      0x31c bsp/libbsp.a(lib.o)
+                0x0000000000000684                printf
+ .text.COMPASSACCELERO_IO_Read
+                0x00000000000009a0        0x4 bsp/libbsp.a(lsm303agr.o)
+                0x00000000000009a0                COMPASSACCELERO_IO_Read
+ .text.i2c_read_reg
+                0x00000000000009a4       0x64 bsp/libbsp.a(i2c.o)
+                0x00000000000009a4                i2c_read_reg
+ *(.rodata*)
+ .rodata.main.str1.4
+                0x0000000000000a08        0x7 main.o
+ *fill*         0x0000000000000a0f        0x1 
+ .rodata.led_cols
+                0x0000000000000a10        0x5 bsp/libbsp.a(board.o)
+                0x0000000000000a10                led_cols
+ *fill*         0x0000000000000a15        0x3 
+ .rodata.led_rows
+                0x0000000000000a18        0x5 bsp/libbsp.a(board.o)
+                0x0000000000000a18                led_rows
+ *fill*         0x0000000000000a1d        0x3 
+ .rodata._do_print.str1.4
+                0x0000000000000a20       0x11 bsp/libbsp.a(lib.o)
+                0x0000000000000a34                . = ALIGN (0x4)
+ *fill*         0x0000000000000a31        0x3 
+                0x0000000000000a34                __etext = .
+
+.glue_7         0x0000000000000a34        0x0
+ .glue_7        0x0000000000000a34        0x0 linker stubs
+
+.glue_7t        0x0000000000000a34        0x0
+ .glue_7t       0x0000000000000a34        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000a34        0x0
+ .vfp11_veneer  0x0000000000000a34        0x0 linker stubs
+
+.v4_bx          0x0000000000000a34        0x0
+ .v4_bx         0x0000000000000a34        0x0 linker stubs
+
+.iplt           0x0000000000000a34        0x0
+ .iplt          0x0000000000000a34        0x0 main.o
+
+.rel.dyn        0x0000000000000a34        0x0
+ .rel.iplt      0x0000000000000a34        0x0 main.o
+
+.data           0x0000000020000000        0x0 load address 0x0000000000000a34
+                0x0000000000000a34                __data_load__ = LOADADDR (.data)
+                0x0000000020000000                __data_start__ = .
+                0x0000000020000000                . = ALIGN (0x4)
+ *(.data*)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __data_end__ = .
+
+.igot.plt       0x0000000020000000        0x0
+ .igot.plt      0x0000000020000000        0x0 main.o
+
+.bss            0x0000000020000000       0x48
+                0x0000000020000000                __bss_start__ = .
+                0x0000000020000000                . = ALIGN (0x4)
+ *(.bss*)
+ .bss.SystemCoreClock
+                0x0000000020000000        0x4 bsp/libbsp.a(system.o)
+                0x0000000020000000                SystemCoreClock
+ .bss.gpio_irq_event_counters
+                0x0000000020000004       0x20 bsp/libbsp.a(gpio.o)
+                0x0000000020000004                gpio_irq_event_counters
+ .bss.gpio_irq_counter
+                0x0000000020000024        0x4 bsp/libbsp.a(gpio.o)
+                0x0000000020000024                gpio_irq_counter
+ .bss.event_callbacks
+                0x0000000020000028       0x20 bsp/libbsp.a(gpio.o)
+                0x0000000020000028                event_callbacks
+ *(COMMON)
+                0x0000000020000048                . = ALIGN (0x4)
+                0x0000000020000048                __bss_end__ = .
+
+.heap           0x0000000000000000        0x0
+                0x0000000000000000                __heap_start__ = .
+                0x0000000000000000                . = ALIGN (0x4)
+ *(.heap*)
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                __heap_end__ = .
+
+.stack          0x0000000020000048     0x2000
+                0x0000000020000048                __stack_start__ = .
+                0x0000000020000048                . = ALIGN (0x4)
+                0x0000000020002048                __stack_size__ = 0x2000
+                0x0000000000002000                . = (. + __stack_size__)
+ *fill*         0x0000000020000048     0x2000 
+                0x0000000020002048                . = ALIGN (0x4)
+                0x0000000020002048                __stack_end__ = .
+LOAD main.o
+LOAD startup.o
+LOAD bsp/libbsp.a
+LOAD rtx/librtx.a
+LOAD /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a
+OUTPUT(MICROBIT.out elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0x5ea1
+ .debug_info    0x0000000000000000      0xe2d main.o
+ .debug_info    0x0000000000000e2d      0x2e3 startup.o
+ .debug_info    0x0000000000001110       0x75 bsp/libbsp.a(system.o)
+ .debug_info    0x0000000000001185     0x1284 bsp/libbsp.a(board.o)
+ .debug_info    0x0000000000002409      0x29d bsp/libbsp.a(serial.o)
+ .debug_info    0x00000000000026a6      0x322 bsp/libbsp.a(gpio.o)
+ .debug_info    0x00000000000029c8      0x20d bsp/libbsp.a(pwm.o)
+ .debug_info    0x0000000000002bd5     0x1ad7 bsp/libbsp.a(lib.o)
+ .debug_info    0x00000000000046ac     0x1696 bsp/libbsp.a(lsm303agr.o)
+ .debug_info    0x0000000000005d42      0x15f bsp/libbsp.a(i2c.o)
+
+.debug_abbrev   0x0000000000000000     0x1340
+ .debug_abbrev  0x0000000000000000      0x34c main.o
+ .debug_abbrev  0x000000000000034c      0x19a startup.o
+ .debug_abbrev  0x00000000000004e6       0x74 bsp/libbsp.a(system.o)
+ .debug_abbrev  0x000000000000055a      0x2a0 bsp/libbsp.a(board.o)
+ .debug_abbrev  0x00000000000007fa      0x183 bsp/libbsp.a(serial.o)
+ .debug_abbrev  0x000000000000097d      0x15d bsp/libbsp.a(gpio.o)
+ .debug_abbrev  0x0000000000000ada       0xe7 bsp/libbsp.a(pwm.o)
+ .debug_abbrev  0x0000000000000bc1      0x36f bsp/libbsp.a(lib.o)
+ .debug_abbrev  0x0000000000000f30      0x333 bsp/libbsp.a(lsm303agr.o)
+ .debug_abbrev  0x0000000000001263       0xdd bsp/libbsp.a(i2c.o)
+
+.debug_loc      0x0000000000000000      0x2ad
+ .debug_loc     0x0000000000000000      0x1db main.o
+ .debug_loc     0x00000000000001db       0xd2 startup.o
+
+.debug_aranges  0x0000000000000000      0x358
+ .debug_aranges
+                0x0000000000000000       0x38 main.o
+ .debug_aranges
+                0x0000000000000038       0x48 startup.o
+ .debug_aranges
+                0x0000000000000080       0x20 bsp/libbsp.a(system.o)
+ .debug_aranges
+                0x00000000000000a0       0x80 bsp/libbsp.a(board.o)
+ .debug_aranges
+                0x0000000000000120       0x50 bsp/libbsp.a(serial.o)
+ .debug_aranges
+                0x0000000000000170       0x58 bsp/libbsp.a(gpio.o)
+ .debug_aranges
+                0x00000000000001c8       0x40 bsp/libbsp.a(pwm.o)
+ .debug_aranges
+                0x0000000000000208       0x50 bsp/libbsp.a(lib.o)
+ .debug_aranges
+                0x0000000000000258       0xd0 bsp/libbsp.a(lsm303agr.o)
+ .debug_aranges
+                0x0000000000000328       0x30 bsp/libbsp.a(i2c.o)
+
+.debug_ranges   0x0000000000000000       0x98
+ .debug_ranges  0x0000000000000000       0x40 main.o
+ .debug_ranges  0x0000000000000040       0x58 startup.o
+
+.debug_macro    0x0000000000000000     0x3b20
+ .debug_macro   0x0000000000000000      0x1df main.o
+ .debug_macro   0x00000000000001df      0xa96 main.o
+ .debug_macro   0x0000000000000c75       0x22 main.o
+ .debug_macro   0x0000000000000c97       0x5e main.o
+ .debug_macro   0x0000000000000cf5       0x18 main.o
+ .debug_macro   0x0000000000000d0d       0x94 main.o
+ .debug_macro   0x0000000000000da1       0x35 main.o
+ .debug_macro   0x0000000000000dd6       0x34 main.o
+ .debug_macro   0x0000000000000e0a      0x174 main.o
+ .debug_macro   0x0000000000000f7e       0x16 main.o
+ .debug_macro   0x0000000000000f94       0x43 main.o
+ .debug_macro   0x0000000000000fd7       0x57 main.o
+ .debug_macro   0x000000000000102e       0x34 main.o
+ .debug_macro   0x0000000000001062       0x10 main.o
+ .debug_macro   0x0000000000001072       0x58 main.o
+ .debug_macro   0x00000000000010ca      0x182 main.o
+ .debug_macro   0x000000000000124c      0x339 main.o
+ .debug_macro   0x0000000000001585       0x10 main.o
+ .debug_macro   0x0000000000001595       0x35 main.o
+ .debug_macro   0x00000000000015ca      0x103 main.o
+ .debug_macro   0x00000000000016cd       0x6a main.o
+ .debug_macro   0x0000000000001737      0x1df main.o
+ .debug_macro   0x0000000000001916       0x16 main.o
+ .debug_macro   0x000000000000192c       0x16 main.o
+ .debug_macro   0x0000000000001942       0x29 main.o
+ .debug_macro   0x000000000000196b       0x3a main.o
+ .debug_macro   0x00000000000019a5       0x10 main.o
+ .debug_macro   0x00000000000019b5       0x88 main.o
+ .debug_macro   0x0000000000001a3d       0x58 main.o
+ .debug_macro   0x0000000000001a95       0x10 main.o
+ .debug_macro   0x0000000000001aa5       0x74 main.o
+ .debug_macro   0x0000000000001b19      0x4b8 main.o
+ .debug_macro   0x0000000000001fd1       0x6a startup.o
+ .debug_macro   0x000000000000203b       0x8e startup.o
+ .debug_macro   0x00000000000020c9       0x51 startup.o
+ .debug_macro   0x000000000000211a       0x29 bsp/libbsp.a(system.o)
+ .debug_macro   0x0000000000002143      0xaa2 bsp/libbsp.a(system.o)
+ .debug_macro   0x0000000000002be5       0xbf bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000002ca4       0x22 bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000002cc6       0x8e bsp/libbsp.a(board.o)
+ .debug_macro   0x0000000000002d54       0xe8 bsp/libbsp.a(serial.o)
+ .debug_macro   0x0000000000002e3c      0x125 bsp/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000002f61      0x1e0 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000003141       0x7b bsp/libbsp.a(pwm.o)
+ .debug_macro   0x00000000000031bc       0x2a bsp/libbsp.a(pwm.o)
+ .debug_macro   0x00000000000031e6       0x3c bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000003222      0x189 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x00000000000033ab       0x43 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x00000000000033ee       0x34 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000003422      0x1de bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000003600      0x369 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000003969       0x35 bsp/libbsp.a(pwm.o)
+ .debug_macro   0x000000000000399e       0x31 bsp/libbsp.a(lib.o)
+ .debug_macro   0x00000000000039cf       0x7c bsp/libbsp.a(lsm303agr.o)
+ .debug_macro   0x0000000000003a4b       0xd5 bsp/libbsp.a(i2c.o)
+
+.debug_line     0x0000000000000000     0x408a
+ .debug_line    0x0000000000000000      0x464 main.o
+ .debug_line    0x0000000000000464      0x351 startup.o
+ .debug_line    0x00000000000007b5       0x77 bsp/libbsp.a(system.o)
+ .debug_line    0x000000000000082c      0xc89 bsp/libbsp.a(board.o)
+ .debug_line    0x00000000000014b5      0x42a bsp/libbsp.a(serial.o)
+ .debug_line    0x00000000000018df      0x472 bsp/libbsp.a(gpio.o)
+ .debug_line    0x0000000000001d51      0x4aa bsp/libbsp.a(pwm.o)
+ .debug_line    0x00000000000021fb      0xf23 bsp/libbsp.a(lib.o)
+ .debug_line    0x000000000000311e      0xbb3 bsp/libbsp.a(lsm303agr.o)
+ .debug_line    0x0000000000003cd1      0x3b9 bsp/libbsp.a(i2c.o)
+
+.debug_str      0x0000000000000000     0xa75c
+ .debug_str     0x0000000000000000     0x881a main.o
+                                       0x8aa1 (size before relaxing)
+ .debug_str     0x000000000000881a      0x136 startup.o
+                                       0x3df9 (size before relaxing)
+ .debug_str     0x0000000000008950      0x526 bsp/libbsp.a(system.o)
+                                       0x2e9b (size before relaxing)
+ .debug_str     0x0000000000008e76      0x10b bsp/libbsp.a(board.o)
+                                       0x4114 (size before relaxing)
+ .debug_str     0x0000000000008f81      0x280 bsp/libbsp.a(serial.o)
+                                       0x4026 (size before relaxing)
+ .debug_str     0x0000000000009201      0x250 bsp/libbsp.a(gpio.o)
+                                       0x42a2 (size before relaxing)
+ .debug_str     0x0000000000009451      0xcc2 bsp/libbsp.a(pwm.o)
+                                       0x7005 (size before relaxing)
+ .debug_str     0x000000000000a113       0x89 bsp/libbsp.a(lib.o)
+                                       0x2fc5 (size before relaxing)
+ .debug_str     0x000000000000a19c      0x350 bsp/libbsp.a(lsm303agr.o)
+                                       0x58c6 (size before relaxing)
+ .debug_str     0x000000000000a4ec      0x270 bsp/libbsp.a(i2c.o)
+                                       0x3f75 (size before relaxing)
+
+.comment        0x0000000000000000       0x91
+ .comment       0x0000000000000000       0x4c main.o
+                                         0x4d (size before relaxing)
+ .comment       0x000000000000004c       0x4d startup.o
+ .comment       0x000000000000004c       0x45 bsp/libbsp.a(system.o)
+                                         0x46 (size before relaxing)
+ .comment       0x0000000000000091       0x46 bsp/libbsp.a(board.o)
+ .comment       0x0000000000000091       0x46 bsp/libbsp.a(serial.o)
+ .comment       0x0000000000000091       0x46 bsp/libbsp.a(gpio.o)
+ .comment       0x0000000000000091       0x46 bsp/libbsp.a(pwm.o)
+ .comment       0x0000000000000091       0x46 bsp/libbsp.a(lib.o)
+ .comment       0x0000000000000091       0x46 bsp/libbsp.a(lsm303agr.o)
+ .comment       0x0000000000000091       0x46 bsp/libbsp.a(i2c.o)
+
+.ARM.attributes
+                0x0000000000000000       0x34
+ .ARM.attributes
+                0x0000000000000000       0x34 main.o
+ .ARM.attributes
+                0x0000000000000034       0x34 startup.o
+ .ARM.attributes
+                0x0000000000000068       0x34 bsp/libbsp.a(system.o)
+ .ARM.attributes
+                0x000000000000009c       0x34 bsp/libbsp.a(board.o)
+ .ARM.attributes
+                0x00000000000000d0       0x34 bsp/libbsp.a(serial.o)
+ .ARM.attributes
+                0x0000000000000104       0x34 bsp/libbsp.a(gpio.o)
+ .ARM.attributes
+                0x0000000000000138       0x34 bsp/libbsp.a(pwm.o)
+ .ARM.attributes
+                0x000000000000016c       0x34 bsp/libbsp.a(lib.o)
+ .ARM.attributes
+                0x00000000000001a0       0x34 bsp/libbsp.a(lsm303agr.o)
+ .ARM.attributes
+                0x00000000000001d4       0x34 bsp/libbsp.a(i2c.o)
+
+.debug_frame    0x0000000000000000      0x8c8
+ .debug_frame   0x0000000000000000       0x94 main.o
+ .debug_frame   0x0000000000000094       0xa8 startup.o
+ .debug_frame   0x000000000000013c       0x2c bsp/libbsp.a(system.o)
+ .debug_frame   0x0000000000000168      0x188 bsp/libbsp.a(board.o)
+ .debug_frame   0x00000000000002f0       0x9c bsp/libbsp.a(serial.o)
+ .debug_frame   0x000000000000038c       0xb0 bsp/libbsp.a(gpio.o)
+ .debug_frame   0x000000000000043c       0x78 bsp/libbsp.a(pwm.o)
+ .debug_frame   0x00000000000004b4      0x13c bsp/libbsp.a(lib.o)
+ .debug_frame   0x00000000000005f0      0x274 bsp/libbsp.a(lsm303agr.o)
+ .debug_frame   0x0000000000000864       0x64 bsp/libbsp.a(i2c.o)
+
+.debug_rnglists
+                0x0000000000000000      0x71d
+ .debug_rnglists
+                0x0000000000000000       0x22 bsp/libbsp.a(system.o)
+ .debug_rnglists
+                0x0000000000000022       0xad bsp/libbsp.a(board.o)
+ .debug_rnglists
+                0x00000000000000cf       0x55 bsp/libbsp.a(serial.o)
+ .debug_rnglists
+                0x0000000000000124       0x3d bsp/libbsp.a(gpio.o)
+ .debug_rnglists
+                0x0000000000000161       0x2b bsp/libbsp.a(pwm.o)
+ .debug_rnglists
+                0x000000000000018c      0x270 bsp/libbsp.a(lib.o)
+ .debug_rnglists
+                0x00000000000003fc      0x302 bsp/libbsp.a(lsm303agr.o)
+ .debug_rnglists
+                0x00000000000006fe       0x1f bsp/libbsp.a(i2c.o)
+
+.debug_loclists
+                0x0000000000000000     0x2b38
+ .debug_loclists
+                0x0000000000000000      0x3f6 bsp/libbsp.a(board.o)
+ .debug_loclists
+                0x00000000000003f6      0x147 bsp/libbsp.a(serial.o)
+ .debug_loclists
+                0x000000000000053d      0x194 bsp/libbsp.a(gpio.o)
+ .debug_loclists
+                0x00000000000006d1      0x152 bsp/libbsp.a(pwm.o)
+ .debug_loclists
+                0x0000000000000823     0x15f3 bsp/libbsp.a(lib.o)
+ .debug_loclists
+                0x0000000000001e16      0xc86 bsp/libbsp.a(lsm303agr.o)
+ .debug_loclists
+                0x0000000000002a9c       0x9c bsp/libbsp.a(i2c.o)
